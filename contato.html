@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04</title>
+</head>
+
+<body>
+    <center>
+        <header>
+            <img src="./img/capa-programacao.jpg" alt="" width="960px">
+        </header>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="musica.html">Musica</a>
+            <a href="aulas.html">Aulas</a>
+            <a href="planos.html">Planos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </center>
+
+    <br>
+
+    <main>
+
+        <h1>Contato</h1>
+        <form method="get">
+            <fieldset> <!-- agrupa elementos do form-->
+                <legend>Contato</legend>
+                <br>
+
+                Digite seu nome: <input type="text" name="nome" placeholder="Digite seu nome" required>
+
+                <br>
+                <br>
+
+                Digite seu E-mail: <input type="email" name="email" placeholder="Digite seu E-mail">
+
+                <br>
+                <br>
+
+                Assunto: <input type="text" name="assunto" required>
+
+                <br>
+                <br>
+
+                <label for="mensagem">Mensagem: </label>
+                <br>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" required minlength="10" maxlength="200">
+                </textarea>
+
+                <br>
+                <br>
+
+
+                <button type="submit">Enviar</button>
+            </fieldset>
+
+        </form>
+
+    </main>
+
+    <center>
+        <footer>
+            <strong>prof Ajax </strong>
+        </footer>
+    </center>
+
+
+</body>
+
+</html>
